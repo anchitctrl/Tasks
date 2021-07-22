@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Open Sans', serif;
+            color: rgb(235, 53, 53);
+        }
+
+        .image1,
+        .image2,
+        .image3 {
+            position: relative;
+            opacity: 0.70;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .image1 {
+            background-image: url("image1.jpg");
+            min-height: 100%;
+        }
+
+        .image2 {
+            background-image: url("image2.jpg");
+            min-height: 100%;
+        }
+
+        .image3 {
+            background-image: url("image3.jpg");
+            min-height: 100%;
+        }
+
+        .heading {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: rgb(43, 40, 12);
+        }
+
+        .heading span.border {
+            background-color: rgb(247, 235, 187);
+            border-radius: 8px;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 10px;
+        }
+
+        .para{
+            color: rgb(219, 211, 211);
+            background-color: rgb(56, 46, 46);
+            padding: 50px 80px;
+            border-radius: 8px;
+            /* text-align: center; */
+        }
+
+        p,dl{
+            text-align: center;
+        }
+    
